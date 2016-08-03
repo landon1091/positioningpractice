@@ -1,6 +1,8 @@
 .container {
     width: 100%;
-    background-color: red;
+    background-color: #9adff9;
+    padding-top: 1%;
+    opacity: .4;
 
 
     text-align: center;
@@ -8,20 +10,42 @@
 }
 .top1 {
     display: inline-block;
-     margin-left: 1%;
 }
 .top2 {
     display: inline-block;
 }
-h1 {
-    display: inline-block;
+p {
+    position: relative;
+    left: 10px;
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+
 }
 .cell {
+    position: relative;
+    background-color: white;
     margin-right: 0%;
-    width: 45%;
-    padding-left: 1%;
+    width: 48.5%;
     border-style: solid;
     border-width: 1px;
     border-color: black;
+    text-align: left;
 
+}
+body {
+    margin: 0;
+    font-family: Arial;
+}
+input {
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+input:hover {
+    opacity: 0;
 }
