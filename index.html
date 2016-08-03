@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<!-- for some reason when I remove all spaces between my code it removes the gaps between the divs so, ugly it is -->
 <section class="container">
     <div class="top1 cell">
         <p>NAME</p>
@@ -13,17 +13,26 @@
         <p>COMPANY</p>
         <input type="text" placeholder="Where do you work?"></div>
 
-        <div class="middle1 cell2">
+        <div class="cell2">
             <p>PHONE NUMBER</P>
-            <input type="text" placeholder="What's the best # to reach you?"></div>
-        <div class="middle1 cell2">
+            <input type="text" placeholder="What's the best # to reach you?"></div><div class="cell2">
             <p>EMAIL</P>
-            <input type="text" placeholder="What is your email adress?"></div>
-        <div class="middle1 cell2">
-            <p>AVAILABILITY</P>
-            <input type="text" placeholder="5-15 hrs per week"></div>
+            <input type="text" placeholder="What is your email adress?"></div><div class="middle1 cell2">
+            <p>AVAILABILITY</P><select>
+  <option value="15-25 hrs per week">15-25 hrs per week</option>
+  <option value="25-35 hrs per week">25-35 hrs per week</option>
+  <option value="there's no escape">there's no escape</option>
+</select></div>
 
-
-</section>
+  <div class="cell3">
+          <p>SKILLS</p><input type="text" placeholder="List a few of your primary skills"></div><div class="cell3">
+          <p>YRS EXPERIENCE</p><input type="text" placeholder="How many years of experience?"></div><div class="cell3">
+          <p>FAVORITE COLOR</p><input type="text" placeholder="What's your favorite color above all others?"></div><div class="cell3">
+          <p>PROGRAMMING LANGUAGE OF CHOICE</p><input type="text" placeholder="I know. Tough question."></div>
+   
+   <div id="button">
+       <h1>Submit Form</h1>
+       </div>
+       </section>
 </body>
 </html>

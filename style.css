@@ -2,6 +2,7 @@
     width: 100%;
     background-color: #9adff9;
     padding-top: 1%;
+    padding-bottom: 1%;
     opacity: .4;
 
 
@@ -19,7 +20,7 @@ p {
     left: 10px;
     display: block;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
 
 }
 .cell {
@@ -28,7 +29,7 @@ p {
     margin-right: 0%;
     width: 48.5%;
     border-style: solid;
-    border-width: 1px;
+    border-width: 0.5px;
     border-color: black;
     text-align: left;
 }
@@ -38,13 +39,22 @@ p {
     background-color: white;
     margin-right: 0%;
     border-style: solid;
-    border-width: 1px;
+    border-width: 0.5px;
     border-color: black;
     text-align: left;
-    width: 32%;
+    width: 32.25%; /*naiiiiled it*/
 }
-
-
+.cell3 {
+    display: inline-block;
+    position: relative;
+    background-color: white;
+    margin-right: 0%;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: black;
+    text-align: left;
+    width: 24.16%; /*math*/
+}
 
 body {
     margin: 0;
@@ -57,4 +67,30 @@ input {
     font-weight: bold;
     font-size: 10px;   
     width: 200px; 
+}
+select {
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+}
+middle1 {
+    position: relative;
+}
+#button {
+    position: relative; 
+    left:1.4%;
+    display: block;
+    background-color: white;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: black;
+    text-align: center;
+    width: 97.1%; 
+
+}
+h1 {
+    position: relative;
+    left: 37%;
+    width: 25%;
+    background-color: green;
 }
